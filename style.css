@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins;
+    background-color: #fd9a0493;
+    transition: 0.9s ease;
+}
+
+header {
+    height: 60px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0px 20px 0px 20px;
+    background-color: #ffa500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px black;
+}
+
+.bar {
+    padding: 1px;
+    height: 20px;
+    width: 60px;
+    background-color: rgb(254, 219, 168);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    transition: 0.9s ease;
+}
+
+header i {
+    font-size: 20px;
+    color: black;
+
+}
+
+header a {
+    line-height: 20px;
+    transition: 0.9s ease;
+}
+
+#dolar {
+    color: white;
+    background-color: black;
+    margin: 0px 0.5px 0px 0px;
+    padding: 3px 5px 2px 5px;
+    font-size: 14px;
+    font-weight: 100;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-shadow: 1px 1px 1px rgb(138, 138, 138);
+    transition: 0.5s ease;
+    opacity: 0;
+    transition: 1.5s;
+    z-index: 1;
+
+}
+
+#biticon {
+    transition: 0.9s ease;
+    opacity: 100;
+    z-index: 2;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    display: flex;
+    margin-left: 25px;
+}
+
+header a {
+    color: white;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 1px 1px 10px #f98d00;
+    transition: 0.9s ease;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+main div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: 0.1s ease;
+
+}
+
+#totalidad {
+    opacity: 100;
+}
+
+main p {
+    font-size: 30px;
+}
+
+main input {
+    width: 60%;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 28px;
+    border: white;
+    outline: none;
+    text-align: center;
+}
+
+
+footer {
+    margin: 0px 30px 0px 0px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer h4 {
+    font-weight: 300;
+    padding: 0px 10px 0px 10px;
+
+}
+
+footer a {
+    color: white;
+    padding: 0px 0px 0px px;
+    margin: 0px 0px 30px 0px;
+}
+
+footer p{
+    padding: 0px 30px 0px 0px;
+}
+.PriceUsdSell {
+    height: 0px;
+    transition: 0.5s ease;
+}
+
+#satsUsd{
+    visibility: hidden;
+}
+
+/*  ANIMTAION  */
